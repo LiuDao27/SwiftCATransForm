@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87F7ACF31ECE834E00608538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F7ACF21ECE834E00608538 /* AppDelegate.swift */; };
+		87F7ACF51ECE834E00608538 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F7ACF41ECE834E00608538 /* ViewController.swift */; };
+		87F7ACF81ECE834E00608538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87F7ACF61ECE834E00608538 /* Main.storyboard */; };
+		87F7ACFA1ECE834E00608538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87F7ACF91ECE834E00608538 /* Assets.xcassets */; };
+		87F7ACFD1ECE834E00608538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87F7ACFB1ECE834E00608538 /* LaunchScreen.storyboard */; };
+		87F7AD081ECE834E00608538 /* SwiftCATransFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F7AD071ECE834E00608538 /* SwiftCATransFormTests.swift */; };
+		87F7AD131ECE834E00608538 /* SwiftCATransFormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F7AD121ECE834E00608538 /* SwiftCATransFormUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87F7AD041ECE834E00608538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87F7ACE71ECE834E00608538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87F7ACEE1ECE834E00608538;
+			remoteInfo = SwiftCATransForm;
+		};
+		87F7AD0F1ECE834E00608538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87F7ACE71ECE834E00608538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87F7ACEE1ECE834E00608538;
+			remoteInfo = SwiftCATransForm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87F7ACEF1ECE834E00608538 /* SwiftCATransForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCATransForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F7ACF21ECE834E00608538 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87F7ACF41ECE834E00608538 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87F7ACF71ECE834E00608538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87F7ACF91ECE834E00608538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87F7ACFC1ECE834E00608538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87F7ACFE1ECE834E00608538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F7AD031ECE834E00608538 /* SwiftCATransFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCATransFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F7AD071ECE834E00608538 /* SwiftCATransFormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCATransFormTests.swift; sourceTree = "<group>"; };
+		87F7AD091ECE834E00608538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F7AD0E1ECE834E00608538 /* SwiftCATransFormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCATransFormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F7AD121ECE834E00608538 /* SwiftCATransFormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCATransFormUITests.swift; sourceTree = "<group>"; };
+		87F7AD141ECE834E00608538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87F7ACEC1ECE834E00608538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F7AD001ECE834E00608538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F7AD0B1ECE834E00608538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87F7ACE61ECE834E00608538 = {
+			isa = PBXGroup;
+			children = (
+				87F7ACF11ECE834E00608538 /* SwiftCATransForm */,
+				87F7AD061ECE834E00608538 /* SwiftCATransFormTests */,
+				87F7AD111ECE834E00608538 /* SwiftCATransFormUITests */,
+				87F7ACF01ECE834E00608538 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87F7ACF01ECE834E00608538 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87F7ACEF1ECE834E00608538 /* SwiftCATransForm.app */,
+				87F7AD031ECE834E00608538 /* SwiftCATransFormTests.xctest */,
+				87F7AD0E1ECE834E00608538 /* SwiftCATransFormUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87F7ACF11ECE834E00608538 /* SwiftCATransForm */ = {
+			isa = PBXGroup;
+			children = (
+				87F7ACF21ECE834E00608538 /* AppDelegate.swift */,
+				87F7ACF41ECE834E00608538 /* ViewController.swift */,
+				87F7ACF61ECE834E00608538 /* Main.storyboard */,
+				87F7ACF91ECE834E00608538 /* Assets.xcassets */,
+				87F7ACFB1ECE834E00608538 /* LaunchScreen.storyboard */,
+				87F7ACFE1ECE834E00608538 /* Info.plist */,
+			);
+			path = SwiftCATransForm;
+			sourceTree = "<group>";
+		};
+		87F7AD061ECE834E00608538 /* SwiftCATransFormTests */ = {
+			isa = PBXGroup;
+			children = (
+				87F7AD071ECE834E00608538 /* SwiftCATransFormTests.swift */,
+				87F7AD091ECE834E00608538 /* Info.plist */,
+			);
+			path = SwiftCATransFormTests;
+			sourceTree = "<group>";
+		};
+		87F7AD111ECE834E00608538 /* SwiftCATransFormUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87F7AD121ECE834E00608538 /* SwiftCATransFormUITests.swift */,
+				87F7AD141ECE834E00608538 /* Info.plist */,
+			);
+			path = SwiftCATransFormUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87F7ACEE1ECE834E00608538 /* SwiftCATransForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F7AD171ECE834E00608538 /* Build configuration list for PBXNativeTarget "SwiftCATransForm" */;
+			buildPhases = (
+				87F7ACEB1ECE834E00608538 /* Sources */,
+				87F7ACEC1ECE834E00608538 /* Frameworks */,
+				87F7ACED1ECE834E00608538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftCATransForm;
+			productName = SwiftCATransForm;
+			productReference = 87F7ACEF1ECE834E00608538 /* SwiftCATransForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87F7AD021ECE834E00608538 /* SwiftCATransFormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F7AD1A1ECE834E00608538 /* Build configuration list for PBXNativeTarget "SwiftCATransFormTests" */;
+			buildPhases = (
+				87F7ACFF1ECE834E00608538 /* Sources */,
+				87F7AD001ECE834E00608538 /* Frameworks */,
+				87F7AD011ECE834E00608538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87F7AD051ECE834E00608538 /* PBXTargetDependency */,
+			);
+			name = SwiftCATransFormTests;
+			productName = SwiftCATransFormTests;
+			productReference = 87F7AD031ECE834E00608538 /* SwiftCATransFormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87F7AD0D1ECE834E00608538 /* SwiftCATransFormUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F7AD1D1ECE834E00608538 /* Build configuration list for PBXNativeTarget "SwiftCATransFormUITests" */;
+			buildPhases = (
+				87F7AD0A1ECE834E00608538 /* Sources */,
+				87F7AD0B1ECE834E00608538 /* Frameworks */,
+				87F7AD0C1ECE834E00608538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87F7AD101ECE834E00608538 /* PBXTargetDependency */,
+			);
+			name = SwiftCATransFormUITests;
+			productName = SwiftCATransFormUITests;
+			productReference = 87F7AD0E1ECE834E00608538 /* SwiftCATransFormUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87F7ACE71ECE834E00608538 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.SmallCircle;
+				TargetAttributes = {
+					87F7ACEE1ECE834E00608538 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 97L5D36XHE;
+						ProvisioningStyle = Automatic;
+					};
+					87F7AD021ECE834E00608538 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 97L5D36XHE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87F7ACEE1ECE834E00608538;
+					};
+					87F7AD0D1ECE834E00608538 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 97L5D36XHE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87F7ACEE1ECE834E00608538;
+					};
+				};
+			};
+			buildConfigurationList = 87F7ACEA1ECE834E00608538 /* Build configuration list for PBXProject "SwiftCATransForm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87F7ACE61ECE834E00608538;
+			productRefGroup = 87F7ACF01ECE834E00608538 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87F7ACEE1ECE834E00608538 /* SwiftCATransForm */,
+				87F7AD021ECE834E00608538 /* SwiftCATransFormTests */,
+				87F7AD0D1ECE834E00608538 /* SwiftCATransFormUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87F7ACED1ECE834E00608538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F7ACFD1ECE834E00608538 /* LaunchScreen.storyboard in Resources */,
+				87F7ACFA1ECE834E00608538 /* Assets.xcassets in Resources */,
+				87F7ACF81ECE834E00608538 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F7AD011ECE834E00608538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F7AD0C1ECE834E00608538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87F7ACEB1ECE834E00608538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F7ACF51ECE834E00608538 /* ViewController.swift in Sources */,
+				87F7ACF31ECE834E00608538 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F7ACFF1ECE834E00608538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F7AD081ECE834E00608538 /* SwiftCATransFormTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F7AD0A1ECE834E00608538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F7AD131ECE834E00608538 /* SwiftCATransFormUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87F7AD051ECE834E00608538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87F7ACEE1ECE834E00608538 /* SwiftCATransForm */;
+			targetProxy = 87F7AD041ECE834E00608538 /* PBXContainerItemProxy */;
+		};
+		87F7AD101ECE834E00608538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87F7ACEE1ECE834E00608538 /* SwiftCATransForm */;
+			targetProxy = 87F7AD0F1ECE834E00608538 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87F7ACF61ECE834E00608538 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87F7ACF71ECE834E00608538 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87F7ACFB1ECE834E00608538 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87F7ACFC1ECE834E00608538 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87F7AD151ECE834E00608538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87F7AD161ECE834E00608538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87F7AD181ECE834E00608538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 97L5D36XHE;
+				INFOPLIST_FILE = SwiftCATransForm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SmallCircle.SwiftCATransForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		87F7AD191ECE834E00608538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 97L5D36XHE;
+				INFOPLIST_FILE = SwiftCATransForm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SmallCircle.SwiftCATransForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		87F7AD1B1ECE834E00608538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 97L5D36XHE;
+				INFOPLIST_FILE = SwiftCATransFormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SmallCircle.SwiftCATransFormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCATransForm.app/SwiftCATransForm";
+			};
+			name = Debug;
+		};
+		87F7AD1C1ECE834E00608538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 97L5D36XHE;
+				INFOPLIST_FILE = SwiftCATransFormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SmallCircle.SwiftCATransFormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCATransForm.app/SwiftCATransForm";
+			};
+			name = Release;
+		};
+		87F7AD1E1ECE834E00608538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 97L5D36XHE;
+				INFOPLIST_FILE = SwiftCATransFormUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SmallCircle.SwiftCATransFormUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftCATransForm;
+			};
+			name = Debug;
+		};
+		87F7AD1F1ECE834E00608538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 97L5D36XHE;
+				INFOPLIST_FILE = SwiftCATransFormUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SmallCircle.SwiftCATransFormUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftCATransForm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87F7ACEA1ECE834E00608538 /* Build configuration list for PBXProject "SwiftCATransForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F7AD151ECE834E00608538 /* Debug */,
+				87F7AD161ECE834E00608538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87F7AD171ECE834E00608538 /* Build configuration list for PBXNativeTarget "SwiftCATransForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F7AD181ECE834E00608538 /* Debug */,
+				87F7AD191ECE834E00608538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87F7AD1A1ECE834E00608538 /* Build configuration list for PBXNativeTarget "SwiftCATransFormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F7AD1B1ECE834E00608538 /* Debug */,
+				87F7AD1C1ECE834E00608538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87F7AD1D1ECE834E00608538 /* Build configuration list for PBXNativeTarget "SwiftCATransFormUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F7AD1E1ECE834E00608538 /* Debug */,
+				87F7AD1F1ECE834E00608538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87F7ACE71ECE834E00608538 /* Project object */;
+}
